@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "slug": "alimento-perro-pollo",
+    "nombre": "Alimento Premium Pollo 3kg",
+    "categoria": "Alimento",
+    "especie": "Perro",
+    "precio": 89000,
+    "descripcion": "Alimento balanceado para perros adultos, rico en proteína de pollo.",
+    "imagen": "images/1.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "juguete-cuerda",
+    "nombre": "Juguete de Cuerda Resistente",
+    "categoria": "Juguetes",
+    "especie": "Perro",
+    "precio": 25000,
+    "descripcion": "Cuerda trenzada para juego de tirar y morder.",
+    "imagen": "images/2.jpg"
+  },
+  {
+    "id": "3",
+    "slug": "cepillo-masajeador",
+    "nombre": "Cepillo Masajeador Anticaída",
+    "categoria": "Higiene",
+    "especie": "Gato",
+    "precio": 32000,
+    "descripcion": "Cepillo suave que elimina el pelo muerto y masajea la piel.",
+    "imagen": "images/3.jpg"
+  },
+  {
+    "id": "4",
+    "slug": "acuario-5-litros",
+    "nombre": "Mini Acuario 5L con LED",
+    "categoria": "Accesorios",
+    "especie": "Pez",
+    "precio": 95000,
+    "descripcion": "Acuario compacto con luz LED azul y filtro incluido.",
+    "imagen": "images/4.jpg"
+  },
+  {
+    "id": "5",
+    "slug": "collar-antipulgas",
+    "nombre": "Collar Antipulgas Natural",
+    "categoria": "Salud",
+    "especie": "Perro",
+    "precio": 28000,
+    "descripcion": "Collar repelente con ingredientes naturales y duración de 6 meses.",
+    "imagen": "images/5.jpg"
+  },
+  {
+    "id": "6",
+    "slug": "transportadora-gatos",
+    "nombre": "Transportadora Plegable para Gatos",
+    "categoria": "Accesorios",
+    "especie": "Gato",
+    "precio": 67000,
+    "descripcion": "Transportadora cómoda, con malla y base antideslizante.",
+    "imagen": "images/6.jpg"
+  },
+  {
+    "id": "7",
+    "slug": "alimento-hamsters",
+    "nombre": "Mix Nutricional para Hámsters 500g",
+    "categoria": "Alimento",
+    "especie": "Roedor",
+    "precio": 18000,
+    "descripcion": "Alimento variado con semillas, granos y frutas secas.",
+    "imagen": "images/7.jpg"
+  },
+  {
+    "id": "8",
+    "slug": "snack-gato-salmon",
+    "nombre": "Snack de Salmón para Gatos 60g",
+    "categoria": "Alimento",
+    "especie": "Gato",
+    "precio": 14500,
+    "descripcion": "Bocaditos tiernos de salmón, perfectos como premio diario.",
+    "imagen": "images/8.jpg"
+  },
+  {
+    "id": "9",
+    "slug": "champu-neutro-perros",
+    "nombre": "Champú Neutro 500ml",
+    "categoria": "Higiene",
+    "especie": "Perro",
+    "precio": 29000,
+    "descripcion": "Champú suave para piel sensible, con aloe vera.",
+    "imagen": "images/9.jpg"
+  },
+  {
+    "id": "10",
+    "slug": "comedero-antivoracidad",
+    "nombre": "Comedero Antivoracidad Interactivo",
+    "categoria": "Accesorios",
+    "especie": "Perro",
+    "precio": 35000,
+    "descripcion": "Diseñado para reducir la velocidad al comer y prevenir vómitos.",
+    "imagen": "images/10.jpg"
+  },
+  {
+    "id": "10",
+    "slug": "comedero-antivoracidad",
+    "nombre": "Comedero Antivoracidad Interactivo",
+    "categoria": "Accesorios",
+    "especie": "Perro",
+    "precio": 35000,
+    "descripcion": "Diseñado para reducir la velocidad al comer y prevenir vómitos.",
+    "imagen": "images/11.jpg"
+  },
+  {
+    "id": "10",
+    "slug": "comedero-antivoracidad",
+    "nombre": "Comedero Antivoracidad Interactivo",
+    "categoria": "Accesorios",
+    "especie": "Perro",
+    "precio": 35000,
+    "descripcion": "Diseñado para reducir la velocidad al comer y prevenir vómitos.",
+    "imagen": "images/12.jpg"
+  },
+  {
+    "id": "10",
+    "slug": "comedero-antivoracidad",
+    "nombre": "Comedero Antivoracidad Interactivo",
+    "categoria": "Accesorios",
+    "especie": "Perro",
+    "precio": 35000,
+    "descripcion": "Diseñado para reducir la velocidad al comer y prevenir vómitos.",
+    "imagen": "images/13.jpg"
+  },
+  {
+    "id": "10",
+    "slug": "comedero-antivoracidad",
+    "nombre": "Comedero Antivoracidad Interactivo",
+    "categoria": "Accesorios",
+    "especie": "Perro",
+    "precio": 35000,
+    "descripcion": "Diseñado para reducir la velocidad al comer y prevenir vómitos.",
+    "imagen": "images/14.jpg"
+  }
+]

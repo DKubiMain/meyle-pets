@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo Meylé Pets</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Meylé Pets Logo" class="logo" />
+      <h1>Catálogo de Productos</h1>
+    </header>
+
+    <main>
+      <div class="filters">
+        <input type="text" id="searchInput" placeholder="Buscar producto..." />
+        <select id="categoryFilter">
+          <option value="">Todas las categorías</option>
+          <option value="Alimento">Alimento</option>
+          <option value="Juguetes">Juguetes</option>
+          <option value="Accesorios">Accesorios</option>
+          <option value="Higiene">Higiene</option>
+        </select>
+      </div>
+
+      <div class="grid" id="productGrid">
+        <!-- Aquí se cargarán los productos -->
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
