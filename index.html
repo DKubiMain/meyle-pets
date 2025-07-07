@@ -17,10 +17,11 @@
         <input type="text" id="searchInput" placeholder="Buscar producto..." />
         <select id="categoryFilter">
           <option value="">Todas las categorías</option>
-          <option value="Alimento">Alimento</option>
-          <option value="Juguetes">Juguetes</option>
           <option value="Accesorios">Accesorios</option>
-          <option value="Higiene">Higiene</option>
+          <option value="Camas">Camas</option>
+          <option value="Casas">Casas</option>
+          <option value="Maletas">Maletas</option>
+          <option value="Ropa">Ropa</option>
         </select>
       </div>
 
@@ -43,33 +44,72 @@
         <div id="resultadoTalla" class="resultado-talla"></div>
 
         <div class="info-tallas">
-          <h3>Revisa la talla de tu mascota:</h3>
-          <ul>
-            <li>
-              <strong>L:</strong> Gran Danés y San Bernardo –
-              <em>Peso máximo 60 Kg</em>.
-            </li>
-            <li>
-              <strong>XL:</strong> Pastor Alemán, Labrador –
-              <em>Peso máximo 45 Kg</em>.
-            </li>
-            <li>
-              <strong>L:</strong> Beagle, Cocker, Criollo mediano, French y
-              Schnauzer grandes – <em>Peso máximo 20 Kg</em>.
-            </li>
-            <li>
-              <strong>M:</strong> French Poodle, Schnauzer, Gato grande –
-              <em>Peso máximo 10 Kg</em>.
-            </li>
-            <li>
-              <strong>S:</strong> Yorkshire, Tacita de té, Mini toy, Gato
-              criollo adulto – <em>Peso máximo 5 Kg</em>.
-            </li>
-            <li>
-              <strong>XS:</strong> Pinscher, cachorros, gato pequeño –
-              <em>Peso máximo 3 Kg</em>.
-            </li>
-          </ul>
+          <h3>Tabla de tallas por raza y medidas</h3>
+          <div class="tabla-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>TALLA</th>
+                  <th>RAZA</th>
+                  <th>CUELLO (cm)</th>
+                  <th>PECHO (cm)</th>
+                  <th>LARGO (cm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>S</strong></td>
+                  <td>
+                    Yorkshire, Tacita de té, Mini toy, Gato criollo adulto
+                  </td>
+                  <td>26–34</td>
+                  <td>46</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <td><strong>M</strong></td>
+                  <td>
+                    Shih Tzu, Pekinés, Bulldog Francés, Mini Schnauzer, Gato
+                    grande
+                  </td>
+                  <td>35–43</td>
+                  <td>50</td>
+                  <td>33</td>
+                </tr>
+                <tr>
+                  <td><strong>L</strong></td>
+                  <td>
+                    Pug, Poodle, Cocker, Criollo mediano, French y Schnauzer
+                    grandes
+                  </td>
+                  <td>41–53</td>
+                  <td>60</td>
+                  <td>41</td>
+                </tr>
+                <tr>
+                  <td><strong>XL</strong></td>
+                  <td>Beagle, Cocker Spaniel, Bull Terriers, Shar Pei</td>
+                  <td>52–64</td>
+                  <td>71</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td><strong>XXL</strong></td>
+                  <td>Bulldog, Chow Chow, Labrador</td>
+                  <td>65–70</td>
+                  <td>78</td>
+                  <td>60</td>
+                </tr>
+                <tr>
+                  <td><strong>XXXL</strong></td>
+                  <td>Pastor Alemán, Golden Retriever, Husky</td>
+                  <td>71–75</td>
+                  <td>93</td>
+                  <td>70</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <p><strong>Producto 100% colombiano.</strong></p>
         </div>
       </section>

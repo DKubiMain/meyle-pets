@@ -206,3 +206,55 @@ select {
 .info-tallas li {
   margin-bottom: 0.5rem;
 }
+
+.info-tallas {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-left: 4px solid #5c2d91;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  overflow-x: auto;
+}
+
+.info-tallas h3 {
+  margin-top: 0;
+  color: #5c2d91;
+}
+
+.tabla-scroll {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+thead th {
+  background-color: #5c2d91;
+  color: white;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tbody td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Centrar columnas de medidas */
+table td:nth-child(3),
+table td:nth-child(4),
+table td:nth-child(5),
+table th:nth-child(3),
+table th:nth-child(4),
+table th:nth-child(5) {
+  text-align: center;
+}
