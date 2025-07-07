@@ -24,11 +24,65 @@
         </select>
       </div>
 
+      <section class="size-checker">
+        <h2>Calcula la talla de tu mascota</h2>
+
+        <form id="sizeForm">
+          <label for="cuello">Cuello (cm):</label>
+          <input type="number" id="cuello" required />
+
+          <label for="pecho">Pecho (cm):</label>
+          <input type="number" id="pecho" required />
+
+          <label for="largo">Largo (cm):</label>
+          <input type="number" id="largo" required />
+
+          <button type="submit" id="calcularBtn">Calcular talla</button>
+        </form>
+
+        <div id="resultadoTalla" class="resultado-talla"></div>
+
+        <div class="info-tallas">
+          <h3>Revisa la talla de tu mascota:</h3>
+          <ul>
+            <li>
+              <strong>L:</strong> Gran Danés y San Bernardo –
+              <em>Peso máximo 60 Kg</em>.
+            </li>
+            <li>
+              <strong>XL:</strong> Pastor Alemán, Labrador –
+              <em>Peso máximo 45 Kg</em>.
+            </li>
+            <li>
+              <strong>L:</strong> Beagle, Cocker, Criollo mediano, French y
+              Schnauzer grandes – <em>Peso máximo 20 Kg</em>.
+            </li>
+            <li>
+              <strong>M:</strong> French Poodle, Schnauzer, Gato grande –
+              <em>Peso máximo 10 Kg</em>.
+            </li>
+            <li>
+              <strong>S:</strong> Yorkshire, Tacita de té, Mini toy, Gato
+              criollo adulto – <em>Peso máximo 5 Kg</em>.
+            </li>
+            <li>
+              <strong>XS:</strong> Pinscher, cachorros, gato pequeño –
+              <em>Peso máximo 3 Kg</em>.
+            </li>
+          </ul>
+          <p><strong>Producto 100% colombiano.</strong></p>
+        </div>
+      </section>
+
       <div class="grid" id="productGrid">
         <!-- Aquí se cargarán los productos -->
       </div>
     </main>
 
     <script src="js/main.js"></script>
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" alt="Imagen ampliada" />
+    </div>
   </body>
 </html>
